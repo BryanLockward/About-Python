@@ -26,7 +26,7 @@ header img{
   margin-left: 200px;
 }
 #righthead a{
-  color: limegreen;
+  color: #D5B300;
 }
 #searchbar{
   padding-top:8px;
@@ -100,6 +100,46 @@ header img{
 }
 .midtext{
   font-size: 15px;
-  color: limegreen;
+  color: #FED22F;
   font-style: italic;
+}
+#bottom{
+  display:inline-block;
+  background-color: white;
+  padding-left: 150px;
+
+}
+.bottommain{
+  width:35%;
+  text-align: center;
+  display:inline-block;
+  padding-top:5px;
+  padding-right:50px;
+  margin-top:25px;
+  vertical-align: top;
+  border-top: 5px solid #73a7d5;
+  font-weight: lighter;
+}
+.bottommain p,.bottommain a{
+  text-decoration: none;
+  font-size: 12px;
+}
+/*
+///FOOTER
+*/
+footer{
+  background:linear-gradient(#245176, #3374ab);
+  text-align: center;
+  padding-top:40px;
+  padding-bottom:8px;
+  color: #88b4db;
+}
+footer a{
+  display:inline;
+  text-decoration: none;
+  padding:10px;
+  color: #88b4db;
+}
+footer p{
+  font-size: 7px;
 }
